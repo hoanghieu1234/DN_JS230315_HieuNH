@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* font-size: 20px; */
+}
+.item-all {
+        position: relative;
+        width: 100%;
+        max-width: 800px;
+        min-height: 1000px;
+        background: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+        box-shadow: 0 4px 4px;
+        gap:20px
+}
+.title h3 {
+    color: black;
+    background-color: yellowgreen;
+    height: 400px;
+    width: 900px;
+    margin-left: 310px;
+    background-image:url('./img/beach3.jpg') ;
+    background-size: cover;
+    padding-top: 300px;
+    padding-left: 20px;
+}
+.img-1 img {
+    width: 100%;
+}
+.item-1 h3 {
+    margin-top: 0px;
+}
+.item-1 p {
+    margin-top: -21px;
+}
+.img img {
+    height: 400px;
+    width: 900px;
+    margin-left: 310px;
+}
